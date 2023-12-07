@@ -1,4 +1,4 @@
-FROM postgresql-15/libpq-dev@15.5-0+deb12u1
+FROM nghttp2/libnghttp2-14@1.52.0-1+deb12u1
 
 RUN npm install -g npm@9.1.3
 

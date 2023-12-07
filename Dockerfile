@@ -1,4 +1,4 @@
-FROM node:18.18.1
+FROM postgresql-15/libpq-dev@15.5-0+deb12u1
 
 RUN npm install -g npm@9.1.3
 
